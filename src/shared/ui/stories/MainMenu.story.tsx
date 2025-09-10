@@ -10,8 +10,14 @@ const MainMenu = CreateReactStory(
 		controls: {},
 	},
 	() => {
-		return <MenuFrame></MenuFrame>;
+		const containerRef = React.useRef<Frame>();
+
+		React.useEffect(() => {
+			print(containerRef.current);
+		}, []);
+
+		return <MenuFrame ref={containerRef}></MenuFrame>;
 	},
 );
 
-export default MainMenu;
+export = MainMenu;
