@@ -19,8 +19,9 @@ const MenuButton = forwardRef<TextButton, ButtonProps>((props, ref) => {
 			TextColor3={props.buttonProps?.TextColor3 ?? new Color3(1, 1, 1)}
 			Event={{
 				MouseEnter: (btn) =>
-					TweenService.Create(btn, new TweenInfo(0.1), { BackgroundTransparency: 0.75 }).Play(),
-				MouseLeave: (btn) => TweenService.Create(btn, new TweenInfo(0.1), { BackgroundTransparency: 1 }).Play(),
+					TweenService.Create(btn, new TweenInfo(0.25), { BackgroundTransparency: 0.75 }).Play(),
+				MouseLeave: (btn) =>
+					TweenService.Create(btn, new TweenInfo(0.25), { BackgroundTransparency: 1 }).Play(),
 				Activated: (btn) => (props.onClick && props.onClick(btn)) ?? print("Activated"),
 			}}
 			{...props.buttonProps}

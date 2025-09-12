@@ -33,9 +33,11 @@
   },
   "dependencies": {
     "@rbxts/array-utils": "^1.0.2",
+    "@rbxts/lyra": "^0.6.0",
     "@rbxts/react": "^17.2.3",
     "@rbxts/react-roblox": "^17.2.3",
     "@rbxts/services": "^1.5.5",
+    "@rbxts/t": "^3.2.1",
     "@rbxts/ui-labs": "^2.4.1"
   }
 }
