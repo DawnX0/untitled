@@ -3,7 +3,7 @@ import MainMenu from "shared/ui/stories/MainMenu.story";
 
 const App = () => {
 	return (
-		<screengui>
+		<screengui IgnoreGuiInset={true}>
 			<MainMenu.story />
 		</screengui>
 	);

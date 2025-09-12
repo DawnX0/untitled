@@ -1,43 +1,44 @@
 {
-  "name": "untitled",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build": "rbxtsc",
-    "watch": "rbxtsc -w"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DawnX0/untitled.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DawnX0/untitled/issues"
-  },
-  "homepage": "https://github.com/DawnX0/untitled#readme",
-  "devDependencies": {
-    "@rbxts/compiler-types": "^3.0.0-types.0",
-    "@rbxts/types": "^1.0.881",
-    "@typescript-eslint/eslint-plugin": "^8.43.0",
-    "@typescript-eslint/parser": "^8.43.0",
-    "eslint": "^9.35.0",
-    "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-prettier": "^5.5.4",
-    "eslint-plugin-roblox-ts": "^1.1.0",
-    "prettier": "^3.6.2",
-    "roblox-ts": "^3.0.0",
-    "typescript": "^5.8.3"
-  },
-  "dependencies": {
-    "@rbxts/array-utils": "^1.0.2",
-    "@rbxts/lyra": "^0.6.0",
-    "@rbxts/react": "^17.2.3",
-    "@rbxts/react-roblox": "^17.2.3",
-    "@rbxts/services": "^1.5.5",
-    "@rbxts/t": "^3.2.1",
-    "@rbxts/ui-labs": "^2.4.1"
-  }
+	"name": "untitled",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "rbxtsc",
+		"watch": "rbxtsc -w"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/DawnX0/untitled.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/DawnX0/untitled/issues"
+	},
+	"homepage": "https://github.com/DawnX0/untitled#readme",
+	"devDependencies": {
+		"@rbxts/compiler-types": "^3.0.0-types.0",
+		"@rbxts/types": "^1.0.881",
+		"@typescript-eslint/eslint-plugin": "^8.43.0",
+		"@typescript-eslint/parser": "^8.43.0",
+		"eslint": "^9.35.0",
+		"eslint-config-prettier": "^10.1.8",
+		"eslint-plugin-prettier": "^5.5.4",
+		"eslint-plugin-roblox-ts": "^1.1.0",
+		"prettier": "^3.6.2",
+		"roblox-ts": "^3.0.0",
+		"typescript": "^5.8.3"
+	},
+	"dependencies": {
+		"@rbxts/array-utils": "^1.0.2",
+		"@rbxts/lyra": "^0.6.0",
+		"@rbxts/react": "^17.2.3",
+		"@rbxts/react-roblox": "^17.2.3",
+		"@rbxts/services": "^1.5.5",
+		"@rbxts/t": "^3.2.1",
+		"@rbxts/ui-labs": "^2.4.1",
+		"rbxts-transformer-t-new": "^1.1.5"
+	}
 }

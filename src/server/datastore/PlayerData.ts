@@ -1,19 +1,15 @@
 import Lyra from "@rbxts/lyra";
-import { t } from "@rbxts/t";
 import Template from "./Template";
+import { $terrify } from "rbxts-transformer-t-new";
+
+const Schema = $terrify<typeof Template>();
 
 const PlayerData = {
 	CreateStore: () => {
-		return Lyra.createPlayerStore<typeof Template>({
+		return Lyra.createPlayerStore({
 			name: "Data",
-			template: {
-				stats: {},
-				inventory: {},
-			},
-			schema: t.strictInterface({
-				stats: t.table,
-				inventory: t.table,
-			}),
+			template: Template,
+			schema: Schema,
 		});
 	},
 };
