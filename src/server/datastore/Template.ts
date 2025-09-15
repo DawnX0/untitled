@@ -1,4 +1,0 @@
-export = {
-	stats: {},
-	inventory: {},
-};

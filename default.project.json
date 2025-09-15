@@ -11,18 +11,14 @@
 					"$className": "Folder",
 					"@rbxts": {
 						"$path": "node_modules/@rbxts"
+					},
+					"@flamework": {
+						"$path": "node_modules/@flamework"
 					}
 				}
 			},
-			"client": {
-				"$className": "Script",
-				"$properties": {
-					"RunContext": "Client"
-				},
-				"$path": "out/game/client"
-			},
 			"game": {
-				"$path": "out"
+				"$path": "out/game"
 			}
 		}
 	}

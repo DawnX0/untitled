@@ -11,5 +11,7 @@
 	},
 	"eslint.run": "onType",
 	"eslint.format.enable": true,
-	"eslint.useFlatConfig": false
+	"eslint.useFlatConfig": false,
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode"
 }

@@ -15,12 +15,8 @@
 		"moduleDetection": "force",
 		"strict": true,
 		"target": "ESNext",
-		"typeRoots": ["node_modules/@rbxts"],
-		"plugins": [
-			{
-				"transform": "rbxts-transformer-t-new"
-			}
-		],
+		"typeRoots": ["node_modules/@rbxts", "node_modules/@flamework"],
+		"plugins": [{ "transform": "rbxts-transformer-flamework" }],
 
 		// configurable
 		"rootDir": "src",
