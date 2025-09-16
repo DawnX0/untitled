@@ -1,6 +1,9 @@
 {
 	"name": "roblox-ts-game",
-	"globIgnorePaths": ["**/package.json", "**/tsconfig.json"],
+	"globIgnorePaths": [
+		"**/package.json",
+		"**/tsconfig.json"
+	],
 	"tree": {
 		"$className": "DataModel",
 		"ReplicatedStorage": {
@@ -11,14 +14,11 @@
 					"$className": "Folder",
 					"@rbxts": {
 						"$path": "node_modules/@rbxts"
-					},
-					"@flamework": {
-						"$path": "node_modules/@flamework"
 					}
 				}
 			},
 			"game": {
-				"$path": "out/game"
+				"$path": "out"
 			}
 		}
 	}
